@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.tab {
+  display: inline;
+  list-style-type: none;
+}
+
+.tab li {
+  background-color: #ddd;
+  float: left;
+}
+
+.tab li:hover {
+  background-color: #eee;
+}
+
+.tab a,
+.tab a:visited {
+  color: #000;
+}
+
+.conteudo-tabs div {
+  clear: both;
+}
+
+.conteudo-tabs div,
+.tab li {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.selecionado li,
+.tab li:active {
+  background-color: #dde;
+}
+
+.accordion h4 {
+  margin: 0;
+  cursor: pointer;
+}
